@@ -1,0 +1,247 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+},
+
+* {
+  box-sizing: border-box;
+  margin: 4px;
+}
+
+html{
+  height: 100%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid green;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-image {
+  max-width: 35px;
+  max-height: 35px;
+  height: auto;
+  width: auto;
+  object-fit: contain; /* Ensure the image fits within the container without distortion */
+  margin-right: 8px; /* Space between the image and text */
+}
+
+.nav h1,
+.nav strong,
+.nav p {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav strong {
+  padding: 0.2rem;
+  background-color: #d4ebc6;
+  border-radius: 0.3rem;
+  border: 2px solid green;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
+}
+
+.div1 ul li:hover {
+  background-color: #575757;
+  color: whitesmoke;
+}
+
+.div1 {
+  display: inline-block;
+  height: 350px;
+  background-color: rgba(236, 236, 236, 0.603);
+  padding: 4px;
+  position: relative;
+}
+
+.div2 {
+  display: inline-block;
+  height: 350px;
+  align-items: center;
+  padding: 0.2rem;
+  position: relative;
+  background-color: #d4ebc6;
+}
+
+.innerdiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.2rem;
+  background-color: rgb(211, 208, 208);
+}
+
+.listitem {
+  background-color: rgb(186, 224, 186);
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border-radius: 0.4rem;
+  margin-left: 0;
+  display: flex;
+  color: rgb(61, 54, 54);
+  /* justify-content: space-between; */
+}
+
+.div2 > .Card {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  border: 2px solid grey;
+  width: 50%;
+  height: 50%;
+  margin-left: 7rem;
+  background-color: rgba(236, 236, 236, 0.603);
+  position: absolute;
+  top: 29%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  overflow: scroll;
+  overflow-wrap: break-word;
+}
+
+.div2 > .backdiv {
+  border-radius: 1rem;
+  width: 50%;
+  height: 50%;
+  background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSW8jaKqh-oHvfuKrqvIpI_4YA-f7Es3c6jwhF9zOWQsa2nkFZJ');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  background-blend-mode: multiply; /* Blend background image with background color */
+  opacity:0.5;
+}
+
+.button {
+  color: green;
+  border: 1px solid green;
+  padding: 0.3rem 1rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top:20.9rem;
+  left: 100px;
+  right:100px;
+  bottom: 4px;
+}
+
+.buttongroup {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-image {
+  max-width: 24px;
+  max-height: 24px;
+  height: auto;
+  width: auto;
+  object-fit: contain; /* Ensure the image fits within the container without distortion */
+  margin-right: 10px; /* Space between the image and text */
+}
+
+.accordianContainer{
+  padding:2.5rem;
+  width: 80%;
+  height: auto;
+  min-height:400px;
+  margin-left: 100px;
+}
+
+.main-menu{
+  display:flex;
+  justify-content: space-between;
+  background-color: rgb(186, 224, 186);
+  padding:0.2rem;
+  border-radius: 0.5rem;
+}
+
+.Quest{
+  background-color: gray;
+  margin:'0.5rem';
+  width:max-content;
+  align-items: center;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.collap-menu{
+  background-color: rgb(236, 236, 236, 0.603);
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: block;
+    text-align: center;
+  }
+
+  main {
+    display: block;
+    text-align: center;
+  }
+
+  .buttongroup {
+    display: block;
+    text-align: center;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .backdiv {
+    display: block;
+    margin-left: 4px;
+  }
+  .div1 {
+    position: static;
+    display: inline-block;
+    min-width: max-content;
+    max-width: fit-content;
+  }
+  .div2 {
+    padding-bottom: 2rem;
+    display: inline-block;
+    min-width: fit-content;
+    width: max-content;
+  }
+
+  .rating {
+    display: block;
+    text-align: left;
+  }
+
+  .Card {
+    position: static;
+    box-sizing: border-box;
+    margin-left: 5rem;
+  }
+
+  .footer {
+    position: static;
+  }
+
+  .chartContainer{
+    display:block;
+  }
+
+}
