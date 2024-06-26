@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ISP-App/static/css/main.9e8eebf8.css",
+    "main.js": "/ISP-App/static/js/main.da8d6b43.js",
+    "index.html": "/ISP-App/index.html",
+    "main.9e8eebf8.css.map": "/ISP-App/static/css/main.9e8eebf8.css.map",
+    "main.da8d6b43.js.map": "/ISP-App/static/js/main.da8d6b43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e8eebf8.css",
+    "static/js/main.da8d6b43.js"
+  ]
+}
