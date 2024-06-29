@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ISP-App/static/css/main.de9ea7f8.css",
-    "main.js": "/ISP-App/static/js/main.da8d6b43.js",
+    "main.css": "/ISP-App/static/css/main.6aacae18.css",
+    "main.js": "/ISP-App/static/js/main.dd14f45e.js",
     "index.html": "/ISP-App/index.html",
-    "main.de9ea7f8.css.map": "/ISP-App/static/css/main.de9ea7f8.css.map",
-    "main.da8d6b43.js.map": "/ISP-App/static/js/main.da8d6b43.js.map"
+    "main.6aacae18.css.map": "/ISP-App/static/css/main.6aacae18.css.map",
+    "main.dd14f45e.js.map": "/ISP-App/static/js/main.dd14f45e.js.map"
   },
   "entrypoints": [
-    "static/css/main.de9ea7f8.css",
-    "static/js/main.da8d6b43.js"
+    "static/css/main.6aacae18.css",
+    "static/js/main.dd14f45e.js"
   ]
 }
